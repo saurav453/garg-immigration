@@ -1,0 +1,44 @@
+This is a [Next.js](https://nextjs.org/) project bootstrapped with TypeScript, Tailwind CSS, and [shadcn/ui](https://ui.shadcn.com/).
+
+## Getting Started
+
+First, install the dependencies:
+
+```bash
+npm install
+```
+
+Then, run the development server:
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Project Structure
+
+- `src/app/` - Next.js App Router pages and layouts
+- `src/components/` - React components
+- `src/components/ui/` - shadcn/ui components
+- `src/lib/` - Utility functions
+
+## Adding shadcn/ui Components
+
+To add a new shadcn/ui component, run:
+
+```bash
+npx shadcn@latest add [component-name]
+```
+
+For example:
+```bash
+npx shadcn@latest add button
+```
+
+## Learn More
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [shadcn/ui Documentation](https://ui.shadcn.com/)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+# garg-immigration
