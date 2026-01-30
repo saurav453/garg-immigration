@@ -34,6 +34,7 @@ const App = () => {
     { name: "Advisory Philosophy", href: "#about" },
     { name: "Contact", href: "#contact" },
   ];
+  //etest
 
   const services = [
     {
