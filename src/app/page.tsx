@@ -180,8 +180,8 @@ const App = () => {
                 Advisory.
               </h1>
               <p className="text-xl text-slate-600 mb-10 leading-relaxed max-w-2xl">
-                Expert-led management of high-value UK visa routes. We provide
-                technical application support and strategic advisory for
+                Expert-led management of high-value UK visa routes. I&apos;ll
+                provide technical application support and strategic advisory for
                 immigrant professionals, founders, and their families.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mb-12">
@@ -200,7 +200,7 @@ const App = () => {
               </div>
             </div>
 
-            <div className="lg:w-2/5 relative">
+            <div className="w-full lg:w-2/5 relative mt-8 lg:mt-0">
               <div className="relative z-10 rounded-[2.5rem] overflow-hidden shadow-2xl aspect-[4/5] bg-[#1A2B4C] border-8 border-white">
                 {/* Image from public/nakul-glass.jpg fills the card */}
                 <Image
