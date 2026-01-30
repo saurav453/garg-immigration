@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import Image from "next/image";
 import {
   ShieldCheck,
   Globe,
@@ -200,28 +201,16 @@ const App = () => {
             </div>
 
             <div className="lg:w-2/5 relative">
-              <div className="relative z-10 rounded-[2.5rem] overflow-hidden shadow-2xl aspect-[4/5] bg-[#1A2B4C] flex items-center justify-center border-8 border-white">
+              <div className="relative z-10 rounded-[2.5rem] overflow-hidden shadow-2xl aspect-[4/5] bg-[#1A2B4C] border-8 border-white">
+                {/* Image from public/nakul-glass.jpg fills the card */}
+                <Image
+                  src="/nakul-glass.jpg"
+                  alt="Garg Immigration"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 40vw"
+                />
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-900/40 via-transparent to-[#1A2B4C]/80" />
-                <div className="relative text-center p-12 flex flex-col items-center">
-                  <div className="w-24 h-24 bg-white/10 rounded-full flex items-center justify-center mb-6 backdrop-blur-sm border border-white/20">
-                    <Building2 className="w-12 h-12 text-white/80" />
-                  </div>
-                  <h3 className="text-white font-bold text-lg tracking-widest uppercase mb-2">
-                    Garg Immigration
-                  </h3>
-                  <p className="text-blue-300 text-xs font-semibold tracking-tighter uppercase opacity-80 italic">
-                    Advisory Limited
-                  </p>
-
-                  <div className="mt-8 pt-8 border-t border-white/10 w-full">
-                    <div className="flex items-center gap-3 text-white/60 justify-center">
-                      <MapPin size={14} />
-                      <span className="text-[10px] font-bold uppercase tracking-widest text-center">
-                        Leeds, United Kingdom
-                      </span>
-                    </div>
-                  </div>
-                </div>
               </div>
 
               <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-blue-600/10 rounded-full blur-3xl -z-10" />
