@@ -210,8 +210,13 @@ const App = () => {
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 40vw"
                 />
+
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-900/40 via-transparent to-[#1A2B4C]/80" />
               </div>
+              {/* Caption below image — responsive text size for mobile and desktop */}
+              <p className="mt-4 text-center text-base sm:text-lg md:text-xl font-semibold text-[#1A2B4C] tracking-tight">
+                Nakul Garg
+              </p>
 
               <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-blue-600/10 rounded-full blur-3xl -z-10" />
               <div className="absolute -top-6 -left-6 w-32 h-32 bg-slate-200 rounded-full blur-2xl -z-10 opacity-50" />
